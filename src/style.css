@@ -8,13 +8,19 @@ body {
     font-family: 'Lexend Deca', sans-serif;
 }
 
-#root {
+#app-wraper {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     position: absolute;
     background-color: var(--background-color);
 }
 
 .bg-primary-blue {
     background-color: var(--background-color);
+}
+
+@media screen and (max-width: 640px) {
+    #root {
+        height: auto;
+    }
 }
